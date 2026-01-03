@@ -1,10 +1,10 @@
 export const siteConfig = {
-  author: 'Kieran Wang',
+  author: 'Albert Fang',
   title: 'Vitesse theme for Astro',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
   image: {
-    src: '/hero.jpg',
+    src: '/blog/hero.jpg',
     alt: 'Website Main Image',
   },
   email: 'kieranwme@gmail.com',
@@ -39,25 +39,25 @@ export const siteConfig = {
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: '/blog/favicon.svg',
       alt: 'Logo Image',
     },
     navLinks: [
       {
         text: 'Blog',
-        href: '/blog',
+        href: '/blog/blog',
       },
       {
         text: 'Notes',
-        href: '/blog/notes',
+        href: '/blog/blog/notes',
       },
       {
         text: 'Talks',
-        href: '/blog/talks',
+        href: '/blog/blog/talks',
       },
       {
         text: 'Projects',
-        href: '/projects',
+        href: '/blog/projects',
       },
     ],
   },
@@ -65,15 +65,15 @@ export const siteConfig = {
     blogLinks: [
       {
         text: 'Blog',
-        href: '/blog',
+        href: '/blog/blog',
       },
       {
         text: 'Notes',
-        href: '/blog/notes',
+        href: '/blog/blog/notes',
       },
       {
         text: 'Talks',
-        href: '/blog/talks',
+        href: '/blog/blog/talks',
       },
     ],
   },
@@ -93,7 +93,7 @@ export const siteConfig = {
       },
       {
         text: 'GitHub Repository',
-        href: 'https://github.com/kieranwv/astro-theme-vitesse',
+        href: 'https://github.com/albertfang0926',
       },
     ],
   },
